@@ -29,6 +29,9 @@ if __name__ == "__main__":
     # db_connect["collection_name"].replace_one({'x': 1}, {'x': 4})   
 
     # x==2に該当するデータのxに10加算する
+    # db_connect["collection_name"].update_one({'x': 9}, {'$set': {'x': 999}})
+
+    # x==2に該当するデータのxに10加算する
     # db_connect["collection_name"].update_one({'x': 2}, {'$inc': {'x': 10}})
 
     # x==2に該当するすべてのデータのxに100加算する
